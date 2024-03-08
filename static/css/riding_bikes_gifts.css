@@ -1,0 +1,145 @@
+h1, body, p {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url('/static/bike.jpg');
+	background-color: black;
+	font-family: 'Baskerville', 'serif';
+	color: white;
+
+	
+}
+
+
+header{
+	text-align: center;
+	padding: 20px;
+	
+}
+
+h1{
+	font-size: 48px;
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(to right, yellow, orange, red, skyblue, red, orange);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+	
+}
+
+@keyframes glitter{
+	0% {text-shadow: 0 0 10px yellow};
+	20% {text-shadow: 0 0 20px orange};
+	40% {text-shadow: 0 0 30px red};
+	60% {text-shadow: 0 0 40px skyblue};
+	80% {text-shadow: 0 0 50px red};
+	100% {text-shadow: 0 0 60px orange};
+}
+
+h2 {
+	font-size: 30px;
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(to right, yellow, orange, red, skyblue, red, orange);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px yellow};
+	20% {text-shadow: 0 0 20px orange};
+	40% {text-shadow: 0 0 30px red};
+	60% {text-shadow: 0 0 40px skyblue};
+	80% {text-shadow: 0 0 50px red};
+	100% {text-shadow: 0 0 60px orange};
+}
+
+.price{
+	font-weight: bolder;
+	
+}
+
+.product-description{
+	font-weight: bolder;
+	margin-bottom: 30px;
+	background: linear-gradient(to right, yellow, orange, red, blue, red, orange);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+	font-size: 20px;
+}
+
+@keyframes glitter{
+	0% {text-shadow: 0 0 10px yellow};
+	20% {text-shadow: 0 0 20px orange};
+	40% {text-shadow: 0 0 30px red};
+	60% {text-shadow: 0 0 40px blue};
+	80% {text-shadow: 0 0 50px red};
+	100% {text-shadow: 0 0 60px orange};
+	
+}
+
+.gift-product img{
+	width: 200px;
+	height: 200px;
+	border: 1px solid grey;
+	padding: 20px;
+}
+
+.amazon-button{
+	color:black;
+	background: linear-gradient(to right, yellow, orange, red, blue, red, orange);
+	animation: glitter 3s infinite;
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+	padding: 10px 20px;
+	cursor: pointer;
+	font-size: 16px;
+	font-family: 'Baskerville', 'serif';
+	font-weight: bolder;
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px yellow};
+	20% {text-shadow: 0 0 20px orange};
+	40% {text-shadow: 0 0 30px red};
+	60% {text-shadow: 0 0 40px blue};
+	80% {text-shadow: 0 0 50px red};
+	100% {text-shadow: 0 0 60px orange};
+}
+
+.amazon-button:hover{
+	background-color: white;
+}
+
+footer{
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+}
+
+.glitter-copyright{
+	font-size: 15px;
+	background:linear-gradient(to right, yellow, orange, red, blue, red, orange);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px yellow};
+	20% {text-shadow: 0 0 20px orange};
+	40% {text-shadow: 0 0 30px red};
+	60% {text-shadow: 0 0 40px blue};
+	80% {text-shadow: 0 0 50px red};
+	100% {text-shadow: 0 0 60px orange};
+}

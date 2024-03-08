@@ -1,0 +1,170 @@
+h1, body , p{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body{
+	font-size: 24px;
+	background-image: url();
+	background-position: center;
+	background-size: cover;
+	font-family: 'Baskerville', 'serif';
+	color: white;
+	background-color: hsl(4, 86%, 30%)
+
+	
+}
+
+header {
+	font-size: 48px;
+	font-family: 'Baskerville', 'serif';
+	color: white;
+	padding: 20px;
+	text-align: center;
+
+}
+
+h1{
+	font-size: 30px;
+	font-family: 'Baskerville', 'serif';
+	color: white;
+	background: linear-gradient(to right, orange, yellow, orangered, orange, yellow, orangered);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px orange};
+	20% {text-shadow: 0 0 20px yellow};
+	40% {text-shadow: 0 0 30px orangered};
+	66% {text-shadow: 0 0 40px orange};
+	80% {text-shadow: 0 0 50px yellow};
+	100% {text-shadow: 0 0 60px orangered};
+}
+
+h2  {
+	font-size: 24px;
+	font-family: 'Baskerville', 'serif';
+	color: white;
+	background: linear-gradient(to right, orange, yellow, orangered, orange, yellow, orangered);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px orange};
+	20% {text-shadow: 0 0 20px yellow};
+	40% {text-shadow: 0 0 30px orangered};
+	60% {text-shadow: 0 0 40px orange};
+	80% {text-shadow: 0 0 50px yellow};
+	100% {text-shadow: 0 0 60px orangered};
+}
+
+.price{
+	font-weight: bolder;
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(to right, orange, yellow, orangered, orange, yellow, orangered);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px orange};
+	20% {text-shadow: 0 0 20px yellow};
+	40% {text-shadow: 0 0 30px orangered};
+	60% {text-shadow: 0 0 40px orange};
+	80% {text-shadow: 0 0 50px yellow};
+	100% {text-shadow: 0 0 60px orangered};
+}
+
+.amazon-button{
+	font-size: 16px;
+	font-family: 'Baskerville', 'serif';
+	display: inline-block;
+	border-radius: 5px;
+	border: none;
+	text-decoration: none;
+	padding: 10px 20px;
+	color: brown;
+	background-color: brown;
+	font-weight: bolder;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background:linear-gradient(to right, orange, yellow, yellow, orange, orangered, yellow);
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter{
+	0% {text-shadow: 0 0 10px orange};
+	20% {text-shadow: 0 0 20px yellow};
+	40% {text-shadow: 0 0 30px yellow};
+	60% {text-shadow: 0 0 40px orange};
+	80% {text-shadow: 0 0 50px orangered};
+	100% {text-shadow: 0 0 60px yellow};
+}
+
+.amazon-button:hover{
+	background-color: brown;
+}
+
+.product-description{
+	margin-bottom: 20px;
+	background:linear-gradient(orange, yellow, orangered, orange, yellow, orangered);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+	font-weight: bolder;
+	font-family: 'Baskerville', 'serif';
+}
+
+@keyframes glitter{
+	0% {text-shadow: 0 0 10px orange};
+	20% {text-shadow: 0 0 20px yellow};
+	40% {text-shadow: 0 0 30px orangered};
+	60% {text-shadow: 0 0 40px orange};
+	80% {text-shadow: 0 0 50px yellow};
+	100% {text-shadow: 0 0 60px orangered};
+	
+}
+
+.gift-product img{
+	width: 200px;
+	height: auto;
+	border: 1px solid #ccc;
+	padding: 20px;
+}
+
+footer{
+	color: black;
+	padding: 10px 0;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+
+}
+
+.glitter-copyright{
+	font-size: 14px;
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(to right, orange, white, yellow, orange, white, yellow);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px orange};
+	20% {text-shadow: 0 0 20px white};
+	40% {text-shadow: 0 0 30px yellow};
+	60% {text-shadow: 0 0 40px orange};
+	80% {text-shadow: 0 0 50px white};
+	100% {text-shadow: 0 0 60px yellow};
+}

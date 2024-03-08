@@ -1,0 +1,131 @@
+h1, body, p {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url('https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg');
+	background-position: center;
+	background-color: black;
+	color: white;
+	font-size: 24px;
+	font-weight: bolder;
+}
+
+header{
+	font-size: 48px;
+	font-family: 'Baskerville', 'serif';
+	color: white;
+	text-align: center;
+}
+
+h1{
+	font-size: 30px;
+	color: white;
+	
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(to right, grey, red, brown, orange, grey, red);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px grey};
+	20% {text-shadow: 0 0 20px red};
+	40% {text-shadow: 0 0 30px brown};
+	60% {text-shadow: 0 0 40px orange};
+	80% {text-shadow: 0 0 50px grey};
+	100% {text-shadow: 0 0 60px red};
+}
+
+
+h2{
+	font-size: 30px;
+	color: white;
+	font-size: 30px;
+	background: linear-gradient( to right, grey, red, brown, orange, grey, red);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter{
+	0% {text-shadow: 0 0 10px grey};
+	20% {text-shadow: 0 0 20px red};
+	40% {text-shadow: 0 0 30px brown};
+	60% {text-shadow: 0 0 40px orange};
+	80% {text-shadow: 0 0 50px grey};
+	100% {text-shadow: 0 0 60px red};
+}
+
+.amazon-button {
+	display: inline-block;
+	border: none;
+	border-radius: 5px;
+	font-family: 'Baskerville', 'serif';
+	font-size: 16px;
+	padding: 10px 20px;
+	text-decoration: none;
+	background-color: violet;
+	font-weight: bolder;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background: linear-gradient(to right, red, maroon, grey, pink, maroon, brown);
+	animation: glitter 3s infinite;
+
+}
+
+@keyframes glitter{
+	0% {text-shadow: 0 0 10px red};
+	20% {text-shadow: 0 0 20px maroon};
+	40% {text-shadow: 0 0 30px grey};
+	60% {text-shadow: 0 0 40px pink};
+	80% {text-shadow: 0 0 50px maroon};
+	100% {text-shadow: 0 0 60px brown};
+}
+
+.amazon-button:hover {
+	background-color: violet;
+}
+
+
+.gift-product img{
+	width: 200px;
+	height: auto;
+	border: 1px solid #ccc;
+	padding: 20px;
+}
+
+.price{
+	font-weight: bolder;
+}
+
+
+footer{
+	text-align: center;
+	position: fixed;
+	padding: 10px 0;
+	width: 100%;
+	bottom: 0;
+}
+
+.glitter-copyright{
+	font-size: 16px;
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(to right, red, brown, maroon, red, brown, maroon);
+	animation: glitter 3s infinte;
+
+}
+
+@keyframes glitter{
+	0% {text-shadow: 0 0 10px red};
+	20% {text-shadow: 0 0 20px brown};
+	40% {text-shadow: 0 0 30px maroon};
+	60% {text-shadow: 0 0 40px red};
+	80% {text-shadow: 0 0 50px brown};
+	100% {text-shadow: 0 0 60px maroon};
+}

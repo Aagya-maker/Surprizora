@@ -1,0 +1,165 @@
+h1, body, p {
+	margin: 0;
+	padding: 0;
+}
+
+.flex-container {
+	display : flex;
+	flex-wrap: wrap;
+}
+
+body {
+	background-color: darkblue;
+	background-image: url();
+	background-position: center;
+	background-size: cover;
+
+}
+
+header {
+	color: white;
+	font-family: 'Baskerville', 'serif';
+	text-align: center;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 48px;
+	font-family: 'Baskerville', 'serif';
+	text-align: center;
+	background: linear-gradient(to right, #3d6bbc, #20acc9, #f1d04a,  #c93127,  #f5a01f , #673b90);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px #3d6bbc};
+	20% {text-shadow: 0 0 20px #20acc9};
+	40% {text-shadow: 0 0 30px #f1d04a};
+	60% {text-shadow: 0 0 40px #c93127};
+	80% {text-shadow: 0 0 50px #f5a01f }
+	100% {text-shadow: 0 0 60px #673b90 };
+}
+
+h2 {
+	font-size: 40px;
+	font-family: 'Baskerville', 'serif';
+	text-align: center;
+	margin-bottom: 30px;
+	background: linear-gradient(to right, #3d6bbc, #20acc9, #f1d04a, #c93127, #f5a01f, #673b90);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px #3d6bbc};
+	20% {text-shadow: 0 0 20px #20acc9};
+	40% {text-shadow: 0 0 30px #f1d04a};
+	60% {text-shadow: 0 0 40px  #c93127};
+	80% {text-shadow: 0 0 50px #f5a01f};
+	100% {text-shadow: 0 0 60px #673b90 }
+}
+
+.product-description {
+	font-size: 25px;
+	font-weight: bolder;
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(to right, #3d6bbc, #20acc9, #f1d04a, #c93127, #f5a01f, #673b90);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px #3d6bbc};
+	20% {text-shadow: 0 0 20px  #20acc9};
+	40% {text-shadow: 0 0 30px  #f1d04a};
+	60% {text-shadow: 0 0 40px #c93127};
+	80% {text-shadow: 0 0 50px #f5a01f};
+	100% {text-shadow: 0 0 60px #673b90}
+}
+
+
+.gift-product {
+	flex: 0 0 20%;
+	box-sizing: border-box;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+}
+
+.gift-product img {
+	width: 200px;
+	height: auto;
+	border: 5px solid green;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.amazon-button {
+	font-size: 18px;
+	font-weight: bolder;
+	font-family: 'Baskerville', 'serif';
+	text-decoration: none;
+	display: inline-block;
+	border: none;
+	border-radius: 5px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 10px 20px;
+	background: linear-gradient(to right, #3d6bbc,  #f1d04a, #c93127, #673b90, #f5a01f, #20acc9);
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px #3d6bbc};
+	20%{text-shadow: 0 0 20px #f1d04a};
+	40%{text-shadow: 0 0 30px #c93127};
+	60%{text-shadow: 0 0 40px #673b90};
+	80%{text-shadow: 0 0 50px #f5a01f};
+	100%{text-shadow: 0 0 60px #20acc9};
+}
+
+
+.price {
+	font-weight: bolder;
+	font-family: 'Baskerville', 'serif';
+	font-size: 20px;
+	background: linear-gradient(to right, #3d6bbc, #f1d04a, #c93127, #673b90, #f5a01f, #20acc9);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+
+footer {
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	position: fixed;
+	padding: 10px 0;
+}
+
+.glitter-copyright{
+	font-size: 12px;
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(to right, #3d6bbc, #f1d04a, #c93127, #673b90, #f5a01f, #20acc9);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0%{text-shadow: 0 0 10px #3d6bbc};
+	20%{text-shadow: 0 0 20px #f1d04a};
+	40%{text-shadow: 0 0 30px #c93127};
+	60%{text-shadow: 0 0 40px #673b90};
+	80%{text-shadow: 0 0 50px #f5a01f};
+	100%{text-shadow: 0 0 60px #20acc9};
+
+}
+

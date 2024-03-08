@@ -1,0 +1,206 @@
+h1, body, p{
+	margin: 0;
+	padding: 0;
+}
+
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+body{
+	background-color: black;
+
+}
+
+header{
+	text-align: center
+}
+
+h1{
+	font-size: 48px;
+	text-align: center;
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(red, white, darkred, black, red, maroon);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px red};
+	20%{text-shadow: 0 0 20px white};
+	40%{text-shadow: 0 0 30px darkred};
+	60%{text-shadow: 0 0 40px black};
+	80%{text-shadow: 0 0 50px red};
+	100%{text-shadow: 0 0 60px maroon};
+}
+
+h2{
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	padding: 20px 0;
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(red, white, darkred, black, red, maroon);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes gliiter{
+	0%{text-shadow: 0 0 10px red};
+	20%{text-shadow: 0 0 20px white};
+	40%{text-shadow: 0 0 30px darkred};
+	60%{text-shadow: 0 0 40px black};
+	80%{text-shadow: 0 0 50px red};
+	100%{text-shadow: 0 0 60px maroon};
+}
+
+h2::before,
+h2::after{
+	content: ' ';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	border-radius: 10px;
+	border: 10px solid transparent;
+	z-index: -1;
+	animation: glitter-border 3s infinite;
+}
+
+h2::before{
+	animation-delay: 2s;
+}
+
+@keyframes glitter-border{
+	0%{
+		border-color: red;
+	}
+	20%{
+		border-color: white;
+	}
+	40%{
+		border-color: darkred;
+	}
+	60%{
+		border-color: black;
+	}
+	80%{
+		border-color: red;
+
+	}
+	100%{
+		border-color: maroon;
+	}
+
+	
+}
+
+.gift-product{
+	flex: 0 0 18%;
+	flex-direction: column;
+	box-sizing: border-box;
+	margin-left: 40px;
+	margin-right: 40px;
+
+}
+
+.gift-product img{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	padding: 20px 0;
+	border: 10px solid transparent;
+	border-radius: 10px;
+	z-index: -1;
+	animation: glitter-border 3s infinite;
+}
+
+.gift-product img::before,
+.gift-product img::after{
+	content:' ';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	border: 10px solid transparent;
+	border: 10px;
+	z-index: -1;
+	animation: glitter-border 3s infinite;
+}
+
+.gift-product img::before{
+	animation-delay: 2s;
+}
+
+@keyframes glitter-border{
+	0%{
+		border-color: red;
+
+	}
+	20%{
+		border-color: white;
+	}
+	40%{
+		border-color: black;
+	}
+	60%{
+		border-color: darkred;
+	}
+	80%{
+		border-color: white;
+	}
+	100%{
+		border-color: maroon;
+	}
+}
+
+
+.amazon-button{
+	display: inline-block;
+	margin-bottom: 5px;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: 'Baskerville', 'serif';
+	color: white;
+	background: linear-gradient(to right, red, black, darkred, maroon, red, black);
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px red};
+	20%{text-shadow: 0 0 20px black};
+	40%{text-shadow: 0 0 30px darkred};
+	60%{text-shadow: 0 0 40px maroon};
+	80%{text-shadow: 0 0 50px red};
+	100%{text-shadow: 0 0 60px black};
+}
+
+.product-description{
+	font-weight: bolder;
+	font-size: 23px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(to right, red, white, darkred, white, maroon, darkred);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinte;
+}
+
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px red};
+	20%{text-shadow: 0 0 20px white};
+	40%{text-shadow: 0 0 30px darkred};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px maroon};
+	100%{text-shadow: 0 0 60px darkred};
+}

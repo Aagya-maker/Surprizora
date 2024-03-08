@@ -1,0 +1,156 @@
+h1, body, p{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url('https://img.freepik.com/free-photo/brown-concrete-wall-with-scratches_53876-129736.jpg');
+	background-color: black;
+	font-family: 'Baskerville', 'serif';
+	font-size: 20px;
+	color: chocolate;
+
+}
+
+header{
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	display: inline-block;
+	font-size: 48px;
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(to right, brown, chocolate, maroon, brown, chocolate, maroon);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0% {text-shadow : 0 0 10px brown};
+	20% {text-shadow: 0 0 20px chocolate};
+	40% {text-shadow: 0 0 30px maroon};
+	60% {text-shadow: 0 0 40px brown};
+	80% {text-shadow: 0 0 50px chocolate};
+	100% {text-shadow: 0 0 60px maroon};
+}
+
+h2 {
+	display: inline-block;
+	color: white;
+	font-size: 30px;
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(to right, chocolate, brown, maroon, chocolate, brown, maroon);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter{
+	0% {text-shadow: 0 0 10px chocolate};
+	20% {text-shadow: 0 0 20px brown};
+	40% {text-shadow: 0 0 30px maroon};
+	60% {text-shadow: 0 0 40px chocolate};
+	80% {text-shadow: 0 0 50px brown};
+	100% {text-shadow: 0 0 60px maroon};
+}
+
+
+.amazon-button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: white;
+	color: white;
+	font-size: 16px;
+	font-weight: bolder;
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background: linear-gradient(to right, chocolate, brown, chocolate, brown, chocolate, brown);
+	animation: glitter 3s infinite;
+	
+	
+
+}
+
+@keyframes glitter{
+	0% {text-shadow: 0 0 10px chocolate};
+	20% {text-shadow: 0 0 20px brown};
+	40% {text-shadow: 0 0 30px chocolate};
+	60% {text-shadow: 0 0 40px brown};
+	80% {text-shadow: 0 0 50px chocolate};
+	100% {text-shadow: 0 0 60px brown};
+}
+
+.price{
+	font-weight: bolder;
+}
+
+.product-description{
+	margin-bottom: 30px;
+	font-weight: bolder;
+	background: linear-gradient(to right, brown, pink, maroon, chocolate, pink, brown);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+
+}
+
+
+
+@keyframes glitter{
+	0% {text-shadow: 0 0 10px brown};
+	20% {text-shadow: 0 0 20px pink};
+	40% {text-shadow: 0 0 30px maroon};
+	60% {text-shadow: 0 0 40px chocolate};
+	80% {text-shadow: 0 0 50px pink};
+	100% {text-shadow: 0 0 60px brown};
+}
+
+.price{
+	font-weight: bolder;
+}
+
+
+.gift-product img{
+	width: 200px;
+	height: auto;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	padding: 20px;
+}
+
+footer{
+	color: black;
+	padding: 10px 0;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	
+}
+
+.glitter-copyright{
+	font-size: 14px;
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(to right, chocolate, brown, maroon, chocolate, brown, maroon);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px chocolate};
+	20% {text-shadow: 0 0 20px brown};
+	40% {text-shadow: 0 0 30px maroon};
+	60% {text-shadow: 0 0 40px chocolate};
+	80% {text-shadow: 0 0 50px brown};
+	100% {text-shadow: 0 0 60px maroon};
+}

@@ -1,0 +1,301 @@
+h1, body, p{
+	margin:0;
+	padding:0;
+}
+
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+body{
+	background-color: darkblue;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+header{
+	padding: 20px;
+	background-color: darkblue;
+	color: black;
+	text-align: center;
+}
+
+h1{
+	font-size: 48px;
+	font-family: 'Baskerville', 'serif';
+	text-align: center;
+	background: linear-gradient(to right, yellow, orange, silver, darkorange, red, yellow);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+	
+}
+
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px yellow};
+	20%{text-shadow: 0 0 20px orange};
+	40%{text-shadow: 0 0 30px silver};
+	60%{text-shadow: 0 0 40px darkorange};
+	80%{text-shadow: 0 0 50px red};
+	100%{text-shadow: 0 0 60px yellow};
+}
+
+h2{
+	font-size: 35px;
+	font-family: 'Baskerville', 'serif';
+	text-align: center;
+	position: relative;
+	padding: 20px 0;
+	background: linear-gradient(to right, yellow, orange, silver, darkorange, red, yellow);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px yellow};
+	20%{text-shadow: 0 0 20px orange};
+	40%{text-shadow: 0 0 30px silver};
+	60%{text-shadow: 0 0 40px darkorange};
+	80%{text-shadow: 0 0 50px red};
+	100%{text-shadow: 0 0 60px yellow};
+}
+
+h2::before,
+h2::after{
+	content: ' ';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	border: 10px solid transparent;
+	border-radius: 10px;
+	z-index: -1;
+	animation: glitter-border 3s infinite;
+}
+
+h2::before{
+	animation-delay: 2s;
+}
+
+@keyframes glitter-border{
+	0%{
+		border-color: yellow;
+	}
+	20%{
+		border-color: orange;
+	}
+	40%{
+		border-color: silver;
+	}
+	60%{
+		border-color:darkorange;
+	}
+	80%{
+		border-color: red;
+
+	}
+	100%{
+		border-color: yellow;
+	}
+}
+
+.gift-product{
+	flex: 0 0 18%;
+	box-sizing: border-box;
+	flex-direction: column;
+
+}
+
+.gift-product img {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	border: 10px solid rgb(255, 208, 0);
+	background: linear-gradient(to right, yellow, orange, silver, darkorange, red, yellow);
+	
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0% {
+		text-shadow: 0 0 10px yellow;
+	}
+	20% {
+		text-shadow: 0 0 20px orange;
+	}
+	40% {
+		text-shadow: 0 0 30px silver;
+	}
+	60% {
+		text-shadow: 0 0 40px darkorange;
+	}
+	80% {
+		text-shadow: 0 0 50px red;
+	}
+	100% {
+		text-shadow: 0 0 60px yellow;
+	}
+}
+
+.gift-product img::before,
+.gift-product img::after {
+	content: '';
+	position: absolute;
+	top: -15px;
+	left: -15px;
+	right: -15px;
+	bottom: -15px;
+	text-align: center;
+	border: 10px solid transparent;
+	border-radius: 10px;
+	z-index: -1;
+	animation: glitter-border 3s infinite;
+}
+
+.gift-product img::before {
+	animation-delay: 2s;
+}
+
+@keyframes glitter-border {
+	0% {
+		border-color: yellow;
+	}
+	20% {
+		border-color: orange;
+	}
+	40% {
+		border-color: silver;
+	}
+	60% {
+		border-color: darkorange;
+	}
+	80% {
+		border-color: red;
+	}
+	100% {
+		border-color: yellow;
+	}
+}
+
+
+
+
+.amazon-button{
+	display: inline-block;
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	background: linear-gradient(to yellowgreen, yellow, lime, white, yellowgreen, yellow);
+	animation: glitter 3s infinite;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: 'Baskerville', 'serif';
+	font-weight: bolder;
+	margin-bottom: 20px;
+}
+
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px yellowgreen};
+	20%{text-shadow: 0 0 20px yellow};
+	40%{text-shadow: 0 0 30px lime};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px yellowgreen};
+	100%{text-shadow: 0 0 60px yellow};
+}
+
+.product-description{
+	font-size: 20px;
+	font-family: 'Baskerville', 'serif';
+	font-weight: bolder;
+	margin-bottom: 5px;
+	background: linear-gradient(to right,yellow, orange, silver, darkorange, red, yellow);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px yellow};
+	20%{text-shadow: 0 0 20px orange};
+	40%{text-shadow: 0 0 30px silver};
+	60%{text-shadow: 0 0 40px darkorange};
+	80%{text-shadow: 0 0 50px red};
+	100%{text-shadow: 0 0 60px yellow};
+}
+
+.amazon-button{
+	display: inline-block;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+	border: none;
+	border: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(to right, yellow, orange, silver, darkorange, red, yellow);
+	
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px yellow};
+	20%{text-shadow: 0 0 20px orange};
+	40%{text-shadow: 0 0 30px silver};
+	60%{text-shadow: 0 0 40px darkorange};
+	80%{text-shadow: 0 0 50px red};
+	100%{text-shadow: 0 0 60px yellow};
+}
+
+.price{
+	font-weight: bolder;
+	font-size: 18px;
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(to right, yellow, orange, silver, darkorange, red, yellow);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px yellow};
+	20%{text-shadow: 0 0 20px orange};
+	40%{text-shadow: 0 0 30px silver};
+	60%{text-shadow: 0 0 40px darkorange};
+	80%{text-shadow: 0 0 50px red};
+	100%{text-shadow: 0 0 60px yellow};
+}
+
+footer{
+	padding: 10px 0;
+	text-align: center;
+	position: fixed;
+	font-size: 12px;
+	font-family: 'Baskerville', 'serif';
+	width: 100%;
+	bottom: 0;
+}
+
+.glitter-copyright{
+	background: linear-gradient(to right, yellow, orange, silver, darkorange, red, yellow);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px yellow};
+	20%{text-shadow: 0 0 20px orange};
+	40%{text-shadow: 0 0 30px silver};
+	60%{text-shadow: 0 0 40px darkorange};
+	80%{text-shadow: 0 0 50px red};
+	100%{text-shadow: 0 0 60px yellow};
+}

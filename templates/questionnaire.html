@@ -1,0 +1,505 @@
+<!-- core/templates/questionnaire.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire - Surprizora</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/questionnaire_styles.css' %}">
+</head>    
+<body>
+    <header>
+        <h1>Your Journey To Their Brightest Smile Begins Here</h1>
+    </header>
+    <main>
+        <div id="question-slider">
+            <div class="question" id="question1">
+                <label>What's their gender?</label><br>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="others" name="gender" value="others">
+                <label for="others">Others</label><br>
+                <input type="radio" id="specific" name="gender" value="specific">
+                <label for="specific">Enter the specific</label><br>
+            </div>
+            <div class="question" id="question2">
+                <label>What is their favorite hobby?</label><br>
+                <input type="radio" id="reading" name="hobby" value="reading" required>
+                <label for="reading">Reading</label><br>
+                <input type="radio" id="sports" name="hobby" value="sports">
+                <label for="sports">Sports</label><br>
+                
+                <input type="radio" id="music" name="hobby" value="music">
+                <label for="music">Music</label><br>
+                
+                <input type="radio" id="art" name="hobby" value="art">
+                <label for="art">Art</label><br>
+                
+                <input type="radio" id="others" name="hobby" value="others">
+                <label for="others-hobby">Others</label><br>
+            </div>
+            <div class="question" id="question3">
+                <label>What's their favorite way to unwind after a long day?</label> <br>
+                <input type="radio" id="bubble-bath" name="unwind" value="bubble-bath" required>
+                <label for="bubble-bath">Taking a long bubble bath with candles and music</label><br>
+                <input type="radio" id="curling-up" name="unwind" value="curling-up">
+                <label for="curling-up">Curling up with a good book or watching a favorite TV show</label><br>
+                <input type="radio" id="walk-run" name="unwind" value="walk-run">
+                <label for="walk-run">Going for a leisurely walk or run to clear their mind</label><br>
+                <input type="radio" id="meditation" name="unwind" value="meditation">
+                <label for="meditation">Meditating or practicing mindfulness to relax and de-stress</label><br>
+                <input type="radio" id="cooking-meal" name="unwind" value="cooking-meal">
+                <label for="cooking-meal">Cooking a delicious meal from scratch and savoring it with a glass of wine</label><br>
+                <input type="radio" id="exercise" name="unwind" value="exercise">
+                <label for="exercise">Engaging in Exercise</label><br>
+                
+            </div>
+
+            <div class="question" id="question4">
+                <label>What do they secrely like?</label><br>
+                <input type="radio" id="chocolate" name="secret_like" value="chocolate" required>
+                <label for="chocolate">Chocolate</label><br>
+                <input type="radio" id="romantic-movies" name="secret_like" value="romantic-movies">
+                <label for="romantic-movies">Romantic Movies</label><br>
+                <input type="radio" id="video-games" name="secret_like" value="video-games">
+                <label for="video-games">Video games</label><br>
+                <input type="radio" id="cartoons" name="secret_like" value="cartoons">
+                <label for="cartoons">Cartoons</label><br>
+            </div>
+
+            <div class="question" id="question5">
+                <label>What was their favorite childhood activity?</label><br>
+                <input type="radio" id="riding-bikes" name="childhood_activity" value="riding-bikes" required>
+                <label for="riding-bikes">Riding bikes around the neighborhood</label><br>
+                <input type="radio" id="exploring-imaginative-worlds" name="childhood_activity" value="exploring-imaginative-worlds">
+                <label for="exploring-imaginative-worlds">Exploring imaginative worlds through books or movies</label><br>
+                <input type="radio" id="creating-art" name="childhood_activity" value="creating-art">
+                <label for="creating-art">Creating art with drawing or paintings</label>
+
+        
+            </div>
+
+            <div class="question" id="question6">
+                <label>What is their favorite genre of music</label><br>
+                <input type="radio" id="pop" name="genre" value="pop" required>
+                <label for="pop">Pop</label><br>
+                <input type="radio" id="rock" name="genre" value="rock">
+                <label for="rock">Rock</label><br>
+                <input type="radio" id="hip-hop" name="genre" value="hip-hop">
+                <label for="hip-hop">Hip-hop/Rap</label><br>
+                <input type="radio" id="jazz" name="genre" value="jazz">
+                <label for="jazz">Jazz</label><br>
+                <input type="radio" id="indie-alternative" name="genre" value="indie-alternative">
+                <label for="indie-alternative">Indie/Alternative</label><br>
+            </div>
+
+            <div class="question" id="question7">
+                <label>What is their zodiac sign?</label><br>
+                <input type="radio" id="aries" name="zodiac" id="aries" required>
+                <label for="aries">Aries(March 21 - April 29)</label><br>
+                <input type="radio" id="taurus" name="zodiac" value="taurus">
+                <label for="taurus">Taurus(April 20 - May 20)</label><br>
+                <input type="radio" id="gemini" name="zodiac" value="gemini">
+                <label for="gemini">Gemini(May 21 - June 20)</label><br>
+                <input type="radio" id="cancer" name="zodiac" value="cancer">
+                <label for="cancer">Cancer (June 21- July 22)</label> <br>
+                <input type="radio" id="leo" name="zodiac" value="leo">
+                <label for="leo">Leo(July 23 - August 22) </label><br>
+                <input type="radio" id="virgo" name="zodiac" value="virgo">
+                <label for="virgo">Virgo (August 23 - September 22)</label><br>
+                <input type="radio" id="scorpio" name="zodiac" value="scorpio">
+                <label for="scorpio">Scorpio (October 23 - November 21)</label><br>
+                <input type="radio" id="sagittarius" name="zodiac" value="sagittarius">
+                <label for="sagittarius">Sagittarius(November 22 - December 21)</label><br>
+                <input type="radio" id="capricorn" name="zodiac" value="capricorn">
+                <label for="capricorn">Capricorn (December 22 - January 19)</label><br>
+                <input type="radio" id="aquarius" name="zodiac" value="aquarius">
+                <label for="aquarius">Aquarius (January 20 - February 18)</label><br>
+                <input type="radio" id="pisces" name="zodiac" value="pisces">
+                <label for="pisces">Pisces (February 19 - March 20)</label>
+
+            </div>
+
+            <div class="question" id="question8">
+                <label>What is their favorite type of food?</label><br>
+                <input type="radio" id="spicy" name="food_type" value="spicy" required>
+                <label for="spicy">Spicy</label><br>
+                <input type="radio" id="sweet" name="food_type" value="sweet">
+                <label for="sweet">Sweet</label><br>
+                <input type="radio" id="savoury" name="food_type" value="savoury">
+                <label for="savoury">Savoury</label><br>
+                <input type="radio" id="comfort" name="food_type" value="comfort">
+                <label for="comfort">Comfort Food</label><br>
+                <input type="radio" id="healthy" name="food_type" value="healthy">
+                <label for="healthy"Healthy></label><br>
+                <input type="radio" id="dessert" name="food_type" value="dessert">
+                <label for="dessert">Dessert</label><br>
+            </div>
+            <div class="question" id="question9">
+                <label>What is their favorite way to exercise or stay active?</label><br>
+                <input type="radio" id="running" name="stay_active" value="running" required>
+                <label for="running">Running/jogging</label><br>
+                <input type="radio" id="dancing" name="stay_active" value="dancing">
+                <label for="dancing">Dancing</label><br>
+                <input type="radio" id="weightlifting" name="stay_active" value="weightlifting">
+                <label for="weightlifting">Weightlifting/strength training</label><br>
+                <input type="radio" id="yoga" name="stay_active" value="yoga">
+                <label for="yoga">Yoga/Pilates</label>
+                <input type="radio" id="swimming" name="stay_active" value="swimming">
+                <label for="swimming">Swimming</label><br>
+                <input for="team-sports" id="stay_active" value="team-sports">
+                <label for="team-sports">Playing team sports</label><br>
+                
+            </div>
+            <div class="question" id="question10">
+                <label>If they could learn any new skill or hobby, what would it be?</label><br>
+                <input type="radio" id="cooking" name="new_skill" value="cooking" required>
+                <label for="cooking">Cooking</label><br>
+                <input type="radio" id="painting" name="new_skill" value="painting">
+                <label for="painting">Painting</label><br>
+                <input type="radio" id="language" name="new_skill" value="language">
+                <label for="language">Learning a new language</label><br>
+                <input type="radio" id="musical-instrument" name="new_skill" value="musical-instrument">
+                <label for="musical-instrument">Playing a musical instrument</label><br>
+                <input tpye="radio" id="coding" name="new_skill" value="coding">
+                <label for="coding">Coding/Programming</label>
+                    
+                
+            </div>
+            <div class="question" id="question11">
+                <label>What's their favorite type of movie or TV show?</label><br>
+                <input type="radio" id="action" name="movie_tv_show" value="action" required>
+                <label for="action">Action/Adventure</label><br>
+                <input type="radio" id="comedy" name="movie_tv_show" value="comedy">
+                <label for="comedy">Comedy</label><br>
+                <input type="radio" id="drama" name="movie_tv_show" value="drama">
+                <label for="drama">Drama</label><br>
+                <input type="radio" id="sci-fi" name="movie_tv_show" value="sci-fi">
+                <label for="sci-fi">Sci-Fi/Fantasy</label><br>
+                <input type="radio" id="documentary" name="movie_tv_show" value="documentary">
+                <label for="documentary">Documentary</label><br>
+                <input type="radio" id="animated" name="movie_tv_show" value="animated">
+                <label for="animated">Animated</label><br>
+             
+            </div>
+
+            <div class="question" id="question12">
+                <label>What's their favorite way to express creativity?</label><br>
+                <input type="radio" id="painting" name="express_creativity" value="painting" required>
+                <label for="painting">Painting or drawing</label><br>
+                <input type="radio" id="writing" name="express_creativity" value="writing">
+                <label for="writing">Writing poetry or stories</label><br>
+                <input type="radio" id="crafting" name="express_creativity" value="crafting">
+                <label for="crafting">Crafting and DIY projects</label><br>
+                <input type="radio" id="musical-instrument" name="'express_creativity" value="musical-instrument">
+                <label for="musical-instrument">Playing a musical instrument</label><br>
+                <input type="radio" id="cooking" name="express_creativity" value="cooking">
+                <label for="cooking">Cooking or baking experimental dishes</label><br>
+                <input type="radio" id="designing" name="'express_creativity" value="designing">
+                <label for="designing">Designing and decorating spaces</label><br>          
+                
+            </div>
+
+            <div class="question" id="question13">
+                <label>What's their go-to comfort food on a rainy day?</label><br>
+                <input type="radio" id="crusty-bread" name="comfort_food" value="crusty-bread" required>
+                <label for="crusty-bread">Hearty homemade soup with crusty bread</label><br>
+                <input type="radio" id="macaroni" name="comfort_food" value="macaroni">
+                <label for="macaroni">Creamy macaroni and cheese</label><br>
+                <input type="radio" id="mashed-potatoes" name="comfort_food" value="mashed-potatoes">
+                <label for="mashed-potatoes">Warm and savory pot roast with mashed potatoes</label><br>
+                <input type="radio" id="ramen" name="comfort_food" value="ramen">
+                <label for="ramen">Spicy ramen noodles with all the fixings</label><br>
+                <input type="radio" id="chocolate-chip" name="comfort_food" value="chocolate-chip">
+                <label for="chocolate-chip">Chocolate chip cookies fresh from the oven</label><br>
+                <input type="radio" id="grilled-cheese-sandwich" name="comfort_food" value="grilled-cheese-sandwich">
+                <label for="grilled-cheese-sandwich">Classic grilled chesse sandwich with tomato soup</label><br>
+
+            </div>
+
+            <div class="question" id="question14">
+                <label>What's their favorite board game or tabletop activity?</label><br>
+                <input type="radio" id="settlers" name="board_game" value="settles" required>
+                <label for="settlers">Settlers of Catan</label><br>
+                <input type="radio" id="ticket-to-ride" name="board_game" value="ticket-to-ride">
+                <label for="ticket-to-ride">Ticket to Ride</label><br>
+                <input type="radio" id="scrabble" name="board_game" value="scrabble">
+                <label for="scrabble">Scrabble</label><br>
+                <input type="radio" id="codenames" name="board_game" value="codenames">
+                <label for="codenames">Codenames</label><br>
+                <input type="radio" id="pandemic" name="board_game" value="pandemic">
+                <label for="pandemic">Pandemic</label><br>
+                <input type="radio" id="chess-or-checkers" name="board_game" value="chess-or-checkers">
+                <label for="chess-or-checkers">Chess or checkers</label><br>
+            
+            </div>
+
+            <div class="question" id="question15">
+                <label>What's their idea of a perfect weekend getaway?</label>
+                <input type="radio" id="relaxing-cabin" name="weekend_getaway" value="relaxing-cabin" required>
+                <label for="relaxing-cabin">Relaxing at a cozy cabin in the mountains</label><br>
+                <input type="radio" id="exploring-city" name="weekend_getaway" value="exploring-city">
+                <label for="exploring-city">Exploring a vibrant city and its cultural attractions</label><br>
+                <input type="radio" id="lounging-beach" name="weekend_getaway" value="lounging-beach">
+                <label for="lounging-beach">Lounging by the beach and soaking up the sun</label><br>
+                <input type="radio" id="hiking-camping-trip" name="weekend_getaway" value="hiking-camping-trip">
+                <label for="hiking-camping-trip">Going on an adventurous hiking or camping trip</label><br>
+                <input type="radio" id="spa-retreat" name="weekend_getaway" value="spa-retreat">
+                <label for="spa-retreat">Indulging in a luxurious spa retreat</label>
+                <input type="radio" id="landmarks-museums" name="weekend_getaway" value="landmarks-museums">
+                <label for="landmarks-museums">Visting historial landmarks and musuems</label><br>
+                
+            </div>
+
+            <div class="question" id="question15">
+                <label>What is their favorite color?</label><br>
+                <input type="radio" id="red" name="color" value="red" required>
+                <label for="red">Red</label><br>
+                <input type="radio" id="blue" name="color" value="blue">
+                <label for="blue">Blue</label><br>
+                <input type="radio" id="green" name="color" value="green">
+                <label for="green">Green</label><br>
+                <input type="radio" id="yellow" name="color" value="yellow">
+                <label for="yellow">Yellow</label><br>
+                <input type="radio" id="pink" name="color" value="pink">
+                <label for="pink">Pink</label><br>
+                <input type="radio" id="purple" name="color" value="purple">
+                <label for="purple">Purple</label><br>
+                <input type="radio" id="orange" name="color" value="orange">
+                <label for="orange">Orange</label><br>
+        
+            </div>
+
+            <div class="question" id="question16">
+                <label>How would you describe their fashion style?</label><br>
+                <input type="radio" id="casual" name="fashion_style" value="casual" required>
+                <label for="casual">Casual</label><br>
+                <input type="radio" id="classic" name="fashion_style" value="classic">
+                <label for="classic">Classic</label><br>
+                <input type="radio" id="bohemian" name="fashion_style" value="bohemian">
+                <label for="bohemian">Bohemian</label><br>
+                <input type="radio" id="trendy" name="fashion_style" value="trendy">
+                <label for="trendy">Trendy</label><br>
+                <input type="radio" id="sporty" name="fashion_style" value="sporty">
+                <label for="sporty">Sporty</label><br>
+                <input type="radio" id="elegant" name="fashion_style" value="elegant">
+                <label for="elegant">Elegant</label><br>
+                <input type="radio" id="vintage" name="fashion_style" value="vintage">
+                <label for="vintage">Vintage</label><br>
+    
+            </div>
+
+            <div class="question" id="question17">
+                <label>Which type of accessories do they prefer?</label><br>
+                <input type="radio" id="jewelry" name="accessories" value="jewelry" required>
+                <label for="jewelry">Jewelry</label><br>
+                <input type="radio" id="watches" name="accessories" value="watches">
+                <label for="watches">Watches</label><br>
+                <input type="radio" id="scarves" name="accessories" value="scarves">
+                <label for="scarves">Scarves</label><br>
+                <input type="radio" id="sunglasses" name="accessories" value="sunglasses">
+                <label for="sunglasses">Sunglasses</label><br>
+                <input type="radio" id="handbags" name="accessories" value="handbags">
+                <label for="handbags">Handbags</label><br>
+                <input type="radio" id="hats" name="accessories" value="hats">
+                <label for="hats">Hats</label><br>
+                <input type="radio" id="caps" name="accessories" value="caps">
+                <label for="caps">Caps</label><br>
+                <input type="radio" id="belts" name="accessories" value="belts">
+                <label for="belts">Belts</label><br>
+
+        
+            </div>
+
+            <div class="question" id="question18">
+                <label>Are they into technology? If so, which gadgets interest them the most?</label><br>
+                <input type="radio" id="smartphones" name="gadgets" value="smartphones" required>
+                <label for="smartphones">Smartphones</label><br>
+                <input type="radio" id="laptops" name="gadgets" value="laptops">
+                <label for="laptops">Laptops</label><br>
+                <input type="radio" id="tablets" name="gadgets" value="tablets">
+                <label for="tablets">Tablets</label><br>
+                <input type="radio" id="smartwatches-fitnesstracker" name="gadgets" value="smartwatches-fitnesstracker">
+                <label for="smartwatches-fitnesstracker">Smartwatches/FitnessTrackers</label><br>
+                <input type="radio" id="cameras" name="gadgets" value="cameras">
+                <label for="cameras">Cameras</label><br>
+                <input type="radio" id="gaming-consoles" name="gadgets" value="gaming-consoles">
+                <label for="gaming-consoles">Gaming consoles</label><br>
+                <input type="radio" id="audio-devices" name="gadgets" value="audio-devices">
+                <label for="audio-devices">Audio Devices (Headphones, Speakers, Earbuds)</label><br>
+    
+            </div>
+
+            <div class="question" id="question19">
+                <label>Are they interested in fitness or sports? If so, what are their fitness goals?</label><br>
+                <input type="radio" id="weight-loss" name="fitness_goals" value="weight-loss" required>
+                <label for="weight-loss">Weight loss</label><br>
+                <input type="radio" id="muscle-gain" name="fitness_goals" value="muscle-gain">
+                <label for="muscle-gain">Muscle gain</label><br>
+                <input type="radio" id="cardio" name="fitness_goals" value="cardio">
+                <label for="cardio">Endurance/Cardiovascular fitness</label><br>
+                <input type="radio" id="flexibility-yoga" name="fitness_goals" value="flexibility-yoga">
+                <label for="flexibility-yoga">Flexibility/Yoga</label><br>
+                <input type="radio" id="sports-performance" bame="fitness_goals" value="sports-performance">
+                <label for="sports-performance">Sports performance improvement</label><br>
+            </div>
+
+            <div class="question" id="question20">
+                <label>Do they have a preferred fragrance or scent?</label><br>
+                <input type="radio" id="floral" name="scent" value="floral">
+                <label for="floral">Floral</label><br>
+                <input type="radio" id="woody" name="scent" value="woody">
+                <label for="woody">Woody</label><br>
+                <input type="radio" id="citrus" name="scent" value="citrus">
+                <label for="citrus">Citrus</label><br>
+                <input type="radio" id="fresh-aquatic" name="scent" value="fresh-aquatic">
+                <label for="fresh-aquatic">Fresh/Aquatic</label><br>
+                <input type="radio" id="spicy" name="scent" value="spicy">
+                <label for="spicy">Spicy</label><br>
+                <input type="radio" id="oriental" name="scent" value="oriental">
+                <label for="oriental">Oriental</label><br>
+                <input type="radio" id="fruity" name="scent" value="fruity">
+                <label type="fruity">Fruity</label><br>
+            </div>
+
+            <div class="question" id="question21">
+                <label>How would you describe their home decor style?</label><br>
+                <input type="radio" id="minimalist" name="home_decor" value="minimalist" required>
+                <label for="minimalist">Minimalist</label><br>
+                <input type="radio" id="vintage-retro" name="home_decor" value="vintage-retro">
+                <label for="vintage-retro">Vintage/Retro</label><br>
+                <input type="radio" id="modern-contemporary" name="home_decor" value="modern-contemporary">
+                <label for="modern-contemporary">Modern/Contemporary</label><br>
+                <input type="radio" id="bohemian" name="home-decor" value="bohemian">
+                <label for="bohemian">Bohemian</label><br>
+                <input type="radio" id="scandinavian" name="home_decor" value="scandinavian">
+                <label for="scandinavian">Scandinavian</label><br>
+                <input type="radio" id="industrial" name="home_decor" value="industrial">
+                <label for="industrial">Industrial</label><br>
+                <input type="radio" id="farmhouse" name="home_decor" value="farmhouse">
+                <label for="farmhouse">Farmhouse</label><br>
+                
+                 
+            </div>
+
+            <div class="question" id="question22">
+                <label>What is their favorite type of beverage?</label><br>
+                <input type="radio" id="coffee" name="beverage" value="coffee">
+                <label for="coffee">Coffee</label><br>
+                <input type="radio" id="tea" name="beverage" value="tea">
+                <label for="tea">Tea</label><br>
+                <input type="radio" id="soft-drinks" name="beverage" value="soft-drinks">
+                <label for="soft-drinks">Soft Drinks</label><br>
+                <input type="radio" id="juice" name="beverage" value="juice">
+                <label for="juice">Juice</label><br>
+                <input type="radio" id="beer" name="beverage" value="beer">
+                <label for="beer">Beer</label><br>
+                <input type="radio" id="wine" name="beverage" value="wine">
+                <label for="wine">Wine</label><br>
+                <input type="radio" id="cocktails" name="beverage" value="cocktails">
+                <label for="cocktails">Cocktails</label><br>
+            
+            </div>
+            <div class="question" id="question23">
+                <label>What's their profession or field of work?</label>
+                <input type="radio" id="technology-it" name="profession" value="technology-it" required>
+                <label for="technology-it">Technology/IT</label><br>
+                <input type="radio" id="healthcare-medicine" name="profession" value="healthcare-medicine">
+                <label for="healthcare-medicine">Healthcare/Medicine</label><br>
+                <input type="radio" id="education" name="profession" value="education">
+                <label for="education">Education/Academia</label><br>
+                <input type="radio" id="finance" name="profession" value="finance">
+                <label for="finance">Finance/Banking</label><br>
+                <input type="radio" id="creative" name="profession" value="creative">
+                <label for="creative">Creative/Arts</label><br>
+                <input type="radio" id="business" name="profession" value="business">
+                <label for="business">Business/Entrepreneurship</label><br>
+                <input type="radio" id="hospitality" name="profession" value="hospitality">
+                <label for="hospitality" name="profession" value="hospitality"></label><br>
+
+            </div>
+
+            <div class="question" id="question24">
+                <label>Are they into sports? If so, which sports do they follow?</label>
+                <input type="radio" id="football" name="sports" value="football" required>
+                <label for="football">Football/Soccer</label><br>
+                <input type="radio" id="basketball" name="sports" value="basketball">
+                <label for="basketball">Basketball</label><br>
+                <input type="radio" id="baseball" name="sports" value="baseball">
+                <label for="baseball">Baseball</label><br>
+                <input type="radio" id="tennis" name="sports" name="tennis">
+                <label for="tennis">Tennis</label><br>
+                <input type="radio" id="golf" name="sports" value="golf">
+                <label for="golf">Golf</label><br>
+                <input type="radio" id="ping-pong" name="sports" value="ping-pong">
+                <label for="ping-pong">Ping Pong</label><br>
+                <input type="radio" id="rugby" name="sports" value="rugby">
+                <label for="rugby">Rugby</label><br>
+                <input type="radio" id="hockey" name="sports" value="hockey">
+                <label for="hockey">Hockey</label><br>
+
+
+            
+            </div>
+
+            <div class="question" id="question25">
+                <label>Do they have any pets? If so, what kind?</label><br>
+                <input type="radio" id="dogs" name="pets" value="dogs" required>
+                <label for="dogs">Dogs</label><br>
+                <input type="radio" id="cats" name="pets" value="cats">
+                <label for="cats">Cats</label><br>
+                <input type="radio" id="birds" name="pets" value="birds">
+                <label for="birds">Birds</label><br>
+                <input type="radio" id="fish" name="pets" value="fish">
+                <label for="fish">Fish</label><br>
+                <input type="radio" id="reptiles" name="pets" value="reptiles">
+                <label for="reptiles">Reptiles/Ambhibians</label><br>
+                <input type="radio" id="small-mammals" name="pets" value="small-mammals">
+                <label for="small-mammals">Small mammals (hamsters, rabbits, etc)</label>
+                <input type="radio" id="none" name="pets" value="none">
+                <label for="none">None</label><br>
+            </div>
+    
+
+
+
+
+        
+        
+
+            
+            <!-- Add more questions as needed -->
+        </div>
+        
+  
+
+
+        
+        <div class="button-container">
+            <button class="prev-btn" onclick="prevQuestion()">Previous</button>
+            <div class="indicator-container">
+                <span class="indicator active"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+            </div>
+            <button class="next-btn" onclick="nextQuestion()">Next</button>
+            <button class="skip-btn" onclick="skipQuestion()">Skip</button>
+        </div>
+
+        <form action="{% url 'questionnaire' %}" method="POST">
+            {% csrf_token %}
+            <input type="hidden" name="questionnaire_completed" value="True">
+            <button type="submit">Submit</button>
+
+        </form>
+    </main>
+    <footer>
+        <p class="glitter-copyright">&copy; 2024 Surprizora. All rights reserved. </p>
+    </footer>
+    <script src="{% static 'js/questionnaire.js' %}"></script>
+</body>
+</html>
+

@@ -1,0 +1,274 @@
+h1, body, p {
+	margin: 0;
+	padding: 0;
+}
+
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+body{
+	background-color: black;
+	background-size: cover;
+
+}
+
+header{
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Baskerville', 'serif';
+	font-size: 48px;
+	background: linear-gradient(to right, lime, green, aqua, white, lime, white);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px lime};
+	20%{text-shadow: 0 0 20px green};
+	40%{text-shadow: 0 0 30px aqua};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px lime};
+	100%{text-shadow: 0 0 60px white};
+}
+
+h2{
+	text-align: center;
+	padding: 20px 0;
+	position: relative;
+	font-family: 'Baskerville', 'serif';
+	font-size: 30px;
+	background: linear-gradient(to right, lime, green, aqua, white, lime, white);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+	
+
+}
+
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px lime};
+	20%{text-shadow: 0 0 20px green};
+	40%{text-shadow: 0 0 30px aqua};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px lime};
+	100%{text-shadow: 0 0 60px white};
+}
+
+
+h2::before,
+h2::after{
+	content:' ';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	border: 10px solid transparent;
+	border-radius: 10px;
+	z-index: -1;
+	animation: glitter-border 3s infinite;
+
+
+}
+
+h2::before{
+	animation-delay: 2s
+}
+
+@keyframes glitter-border{
+	0%{
+		border-color: white;
+	}
+	20%{
+		border-color: lime;
+	}
+	40%{
+		border-color: aqua;
+	}
+	60%{
+		border-color: green;
+	}
+	80%{
+		border-color: white;
+	}
+	100%{
+		border-color: lime;
+	}
+
+
+}
+
+.product-description{
+	font-size: 25px;
+
+	margin-bottom: 10px;
+	font-family: 'Baskerville', 'serif';
+	font-weight: bolder;
+	background: linear-gradient(to right, white, lime, aqua, green, white, lime);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px white};
+	20%{text-shadow: 0 0 20px lime};
+	40%{text-shadow: 0 0 30px aqua};
+	60%{text-shadow: 0 0 40px green};
+	80%{text-shadow: 0 0 50px white};
+	100%{text-shadow: 0 0 60px lime};
+}
+
+.price{
+	font-size: 20px;
+	font-family: 'Baskerville', 'serif';
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-weight: bolder;
+	background: linear-gradient(to right, white, lime, aqua, green, white, lime);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px white};
+	20%{text-shadow: 0 0 20px lime};
+	40%{text-shadow: 0 0 30px aqua};
+	60%{text-shadow: 0 0 40px green};
+	80%{text-shadow: 0 0 50px white};
+	100%{text-shadow: 0 0 60px lime};
+}
+
+.amazon-button{
+	display: inline-block;
+	font-family: 'Baskerville', 'serif';
+
+	padding: 10px 20px;
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	font-weight: bolder;
+	font-size: 15px;
+	margin-left: 20px;
+	background: linear-gradient(to right, white, lime, aqua, green, white, lime);
+	animation: glitter 3s infinite;
+	margin-bottom: 20px;
+
+	
+
+}
+
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px white};
+	20%{text-shadow: 0 0 20px lime};
+	40%{text-shadow: 0 0 30px aqua};
+	60%{text-shadow: 0 0 40px green};
+	80%{text-shadow: 0 0 50px white};
+	100%{text-shadow: 0 0 60px lime};
+}
+
+.gift-product{
+	flex: 0 0 18%;
+	flex-direction: column;
+	box-sizing: border-box;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.gift-product img{
+	width: 200px;
+	position: relative;
+	padding: 20px 0;
+	height: 200px;
+	border: 10px solid transparent;
+	border-radius: 10px;
+	z-index: -1;
+	animation: glitter-border 3s infinite;
+
+
+}
+
+
+.gift-product img::before,
+.gift-product img::after{
+	content:' ';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	border: 10px solid transparent;
+	border-radius: 10px;
+	z-index: -1;
+	animation: glitter-border 3s infinite;
+
+
+}
+
+.gift-product img::before{
+	animation-delay: 2s
+}
+
+@keyframes glitter-border{
+	0%{
+		border-color: white;
+	}
+	20%{
+		border-color: lime;
+	}
+	40%{
+		border-color: aqua;
+	}
+	60%{
+		border-color: black;
+	}
+	80%{
+		border-color: white;
+	}
+	100%{
+		border-color: lime;
+	}
+}
+
+
+footer{
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	position:fixed;
+	padding: 10px 0;
+	font-size: 12px;
+	font-family: 'Baskerville', 'serif';
+	color: blue;
+	
+}
+
+.glitter-copyright{
+	background: linear-gradient(to right, beige, skyblue, silver, skyblue, white, beige);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px beige};
+	20%{text-shadow: 0 0 20px skyblue};
+	40%{text-shadow: 0 0 30px silver};
+	60%{text-shadow: 0 0 40px skyblue};
+	80%{text-shadow: 0 0 50px white};
+	100%{text-shadow: 0 0 60px beige};
+}

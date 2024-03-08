@@ -1,0 +1,175 @@
+h1, body, p {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url('');
+	background-color: lightgoldenrodyellow;
+	background-position: center;
+	background-size:cover;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header{
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 48px;
+	font-family: 'Baskerville', 'serif';
+	text-align: center;
+	background: linear-gradient(to right, red, white, darkred, red, white, maroon);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0%{text-shadow: 0 0 10px red};
+	20%{text-shadow: 0 0 20px white};
+	40%{text-shadow: 0 0 30px darkred};
+	60%{text-shadow: 0 0 40px red};
+	80%{text-shadow: 0 0 50px white};
+	100%{text-shadow: 0 0 60px maroon};
+}
+
+h2{
+	font-size: 30px;
+	border: 10px solid rgb(165, 0, 0);
+	font-family: 'Baskerville', 'serif';
+	text-align: center;
+	background: linear-gradient(to right, red, white, darkred, red, white, maroon);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0%{text-shadow: 0 0 10px red};
+	20%{text-shadow: 0 0 20px white};
+	40%{text-shadow: 0 0 30px darkred};
+	60%{text-shadow: 0 0 40px red};
+	80%{text-shadow: 0 0 50px white};
+	100%{text-shadow: 0 0 60px maroon};
+}
+
+
+.gift-product{
+	flex: 0 0 18%;
+	box-sizing:border-box;
+	flex-direction: column;
+
+}
+
+.gift-product img{
+	width: 200px;
+	height: 200px;
+	border: 10px solid darkred; 
+}
+
+.product-description{
+	font-size: 20px;
+	font-weight: bolder;
+	margin-right: 50px;
+	font-family: 'Baskerville', 'serif';
+	margin-bottom: 20px;
+	background: linear-gradient(to right, red, white, darkred, red, white, maroon);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0%{text-shadow: 0 0 10px red};
+	20%{text-shadow: 0 0 20px white};
+	40%{text-shadow: 0 0 30px darkred};
+	60%{text-shadow: 0 0 40px red};
+	80%{text-shadow: 0 0 50px white};
+	100%{text-shadow: 0 0 60px maroon}
+}
+
+.amazon-button{
+	display: inline-block;
+	color: black;
+	padding: 10px 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 20px;
+	font-family: 'Baskerville', 'serif';
+	font-weight: bolder;
+	border: none;
+	text-decoration: none;
+	border-radius: 5px;
+	background: linear-gradient(to right,darkred, white, darkred, darkred, white, darkred);
+	
+	animation: glitter 3s infinte;
+}
+
+
+.amazon-button:hover{
+	color:darkred;
+}
+
+@keyframes glitter {
+	0%{text-shadow: 0 0 10px darkred};
+	20%{text-shadow: 0 0 20px white};
+	40%{text-shadow: 0 0 30px darkred};
+	60%{text-shadow: 0 0 40px darkred};
+	80%{text-shadow: 0 0 50px white};
+	100%{text-shadow: 0 0 60px darkred};
+}
+
+.price{
+	margin-top: 20px;
+	margin-bottom: 1px;
+	font-weight: bolder;
+	font-size: 22px;
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(to right, darkred, white, darkred, darkred, white, darkred);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite ;
+}
+
+@keyframes glitter {
+	0%{text-shadow: 0 0 10px darkred};
+	20%{text-shadow: 0 0 20px white};
+	40%{text-shadow: 0 0 30px darkred};
+	60%{text-shadow: 0 0 40px darkred};
+	80%{text-shadow: 0 0 50px white};
+	100%{text-shadow: 0 0 60px darkred};
+}
+
+
+footer{
+	width: 100%;
+	bottom: 0;
+	font-size: 12px;
+	font-family: 'Baskerville', 'serif';
+	padding: 10px 0;
+	text-align: center;
+
+}
+
+.glitter-copyright{
+	background: linear-gradient(to right, darkred, white, darkred, darkred, white, darkred);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0%{text-shadow: 0 0 10px darkred};
+	20%{text-shadow: 0 0 20px white};
+	40%{text-shadow: 0 0 30px darkred};
+	60%{text-shadow: 0 0 40px darkred};
+	80%{text-shadow: 0 0 50px white};
+	100%{text-shadow: 0 0 60px darkred};
+}

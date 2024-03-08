@@ -1,0 +1,27 @@
+<!-- core/templates/home.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprizora - Home</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Surprizora</h1>
+        <h2>Everybody Appreciates A Thoughtful Gift</h2>
+    </header>
+    <main>
+        <div class="main-content">
+        <p class="glitter-text">Find the perfect custom gifts for your loved ones!</p>
+        <p class="glitter-text">Take a quick questionnaire to get the perfect gift for your loved one (or for yourself!)</p>
+        <a href="{% url 'questionnaire' %}" class="questionnaire glitter-button">Take The Questionnaire</a>
+    </div>
+    </main>
+    <footer>
+        <p class="glitter-copyright">&copy; 2024 Surprizora. All rights reserved.</p>
+    </footer>
+</body>
+</html>

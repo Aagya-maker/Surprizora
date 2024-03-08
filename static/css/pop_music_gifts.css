@@ -1,0 +1,173 @@
+h1, body, p {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url();
+	background-color: purple;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	font-size: 25px;
+	font-family: 'Baskerville', 'serif';
+	padding: 20px;
+
+}
+
+header {
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 48px;
+	font-family : 'Baskerville', 'serif';
+	background: linear-gradient(to right, pink, violet, skyblue, pink, skyblue, violet);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px pink};
+	20% {text-shadow: 0 0 20px violet};
+	40% {text-shadow: 0 0 30px skyblue};
+	60% {text-shadow: 0 0 40px pink};
+	80% {text-shadow: 0 0 50px skyblue};
+	100% {text-shadow: 0 0 60px violet};
+}
+
+h2 {
+	font-size: 30px;
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(to right, pink, violet, skyblue, pink, skyblue, violet);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px pink};
+	20% {text-shadow: 0 0 20px violet};
+	40% {text-shadow: 0 0 30px skyblue};
+	60% {text-shadow: 0 0 40px pink};
+	80% {text-shadow: 0 0 50px skyblue};
+	100% {text-shadow: 0 0 60px violet};
+}
+
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.price {
+	font-weight: bolder;
+	background: linear-gradient(to right, pink, violet, skyblue, pink, skyblue, violet);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px pink};
+	20% {text-shadow: 0 0 20px violet};
+	40% {text-shadow: 0 0 30px skyblue};
+	60% {text-shadow: 0 0 40px pink};
+	80% {text-shadow: 0 0 50px skyblue};
+	100% {text-shadow: 0 0 60px violet};
+}
+
+.product-description {
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(to right, pink, violet, skyblue, pink, skyblue, violet);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+	margin-bottom: 20px;
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px pink};
+	20% {text-shadow: 0 0 20px violet};
+	40% {text-shadow: 0 0 30px skyblue};
+	60% {text-shadow: 0 0 40px pink};
+	80% {text-shadow: 0 0 50px skyblue};
+	100% {text-shadow: 0 0 60px violet}
+}
+
+.gift-product{
+	flex: 0 0 20%;
+	box-sizing: border-box;
+	flex-direction: column;
+	padding: 10px;
+	align-items: center;
+	
+	
+	margin: 0 10px;
+	text-align: center;
+}
+.gift-product img{
+	width: 200px;
+	height: auto;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+	padding: 20px;
+
+}
+
+
+footer{
+	bottom: 0;
+	position: fixed;
+	text-align: center;
+
+	width: 100%;
+	padding: 10px 0;
+	font-size: 15px;
+	
+	position: fixed;
+}
+
+.glitter-copyright{
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(to right, pink, violet, skyblue, pink, skyblue, violet);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px pink};
+	20% {text-shadow: 0 0 20px violet};
+	40% {text-shadow: 0 0 30px skyblue};
+	60% {text-shadow: 0 0 40px pink};
+	80% {text-shadow: 0 0 50px skyblue};
+	100% {text-shadow: 0 0 60px violet};
+}
+
+.amazon-button {
+	display: inline-block;
+	padding: 8px 20px;
+	font-weight: bolder;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Baskerville', 'serif';
+	transition: background-color 0.3s ease;
+	background: linear-gradient(to right, pink,violet, skyblue, pink, skyblue, violet);
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px pink};
+	20% {text-shadow: 0 0 20px violet};
+	40% {text-shadow: 0 0 30px skyblue};
+	60% {text-shadow: 0 0 40px pink};
+	80% {text-shadow: 0 0 50px skyblue};
+	100% {text-shadow: 0 0 60px violet};
+}

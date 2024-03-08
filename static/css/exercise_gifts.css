@@ -1,0 +1,148 @@
+h1 , body, p{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url();
+	background-color: black;
+	background-position: center;
+	font-family: 'Baskerville', 'serif';
+	font-size: 20px;
+	color: whitesmoke;
+
+
+}
+
+
+header{
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+h1{
+	color: white;
+	font-size: 48px;
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(to right, purple, pink, gold, aqua, lime, purple);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter{
+	0% {text-shadow: 0 0 10px purple};
+	20% {text-shadow: 0 0 20px pink};
+	40% {text-shadow: 0 0 30px gold};
+	60% {text-shadow: 0 0 40px aqua};
+	80% {text-shadow: 0 0 50px lime};
+	100% {text-shadow: 0 0 60px purple};
+}
+
+h2 {
+	color: white;
+	font-size: 24px;
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(to right, purple, pink, gold, aqua, lime, purple);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px purple};
+	20% {text-shadow: 0 0 20px pink};
+	40% {text-shadow: 0 0 30px gold};
+	60% {text-shadow: 0 0 40px aqua};
+	80% {text-shadow: 0 0 50px lime};
+	100% {text-shadow: 0 0 60px purple};
+}
+
+.amazon-button{
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: white;
+	color: white;
+	font-size: 16px;
+	font-weight: bolder;
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background: linear-gradient(to right, violet, purple, violet, pink, purple, violet);
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter{
+	0% {text-shadow: 0 0 10px violet};
+	20% {text-shadow: 0 0 20px purple};
+	40% {text-shadow: 0 0 30px violet};
+	60% {text-shadow: 0 0 40px pink};
+	80% {text-shadow: 0 0 50px purple};
+	100% {text-shadow: 0 0 60px violet};
+}
+
+.amazon-button:hover{
+	background-color: violet;
+}
+
+.gift-product img{
+	width: 200px;
+	height: auto;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	padding: 20px;
+}
+
+.product-description{
+	margin-bottom: 30px;
+	background:linear-gradient(to right, purple, pink, gold, aqua, lime, purple);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+	font-weight: bolder;
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px purple};
+	20% {text-shadow: 0 0 20px pink};
+	40% {text-shadow: 0 0 30px gold};
+	60% {text-shadow: 0 0 40px aqua};
+	80% {text-shadow: 0 0 50px lime};
+	100% {text-shadow: 0 0 60px purple};
+}
+
+.price{
+	font-weight: bolder;
+}
+
+footer{
+	color: black;
+	padding: 10px 0;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+
+.glitter-copyright{
+	font-size: 14px;
+	font-family: 'Georgia', 'serif';
+	background: linear-gradient(to right, purple, pink, gold, aqua, lime, purple);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px purple};
+	20% {text-shadow: 0 0 20px pink};
+	40% {text-shadow: 0 0 30px gold};
+	60% {text-shadow: 0 0 40px aqua};
+	80% {text-shadow: 0 0 50px lime};
+	100% {text-shadow: 0 0 60px purple};
+}

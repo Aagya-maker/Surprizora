@@ -1,0 +1,153 @@
+body, h1, p {
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-image: url('/static/image.png');
+	background-color: aqua;
+	background-size:cover;
+	background-position:center;
+	font-family:Baskerville, serif;
+	color:palevioletred;
+}
+.bold-text{
+	font-weight: bold;
+}
+header {
+	background-color: slateblue;
+	padding: 30px;
+	text-align : center;
+}
+
+h1{
+	color: whitesmoke;
+	font-size:50px;
+	font-family:'Basketville', serif;
+	background: linear-gradient(to right, purple, pink, gold, aqua, lime, purple);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation:glitter 3s infinite;
+}
+
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px purple;}
+	20% {text-shadow: 0 0 20px pink;}
+	40% {text-shadow: 0 0 30px gold;}
+	60% {text-shadow: 0 0 40px aqua;}
+	80% {text-shadow: 0 0 50px lime;}
+	100% {text-shadow: 0 0 60px purple;}
+
+	}
+
+h2{
+	color: whitesmoke;
+	font-size: 25px;
+	font-family:'Basketville', serif;
+	background: linear-gradient(to right, purple, pink, gold, aqua, lime, purple);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation:glitter 3s infinite;
+}
+
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px purple;}
+	20% {text-shadow: 0 0 20px pink;}
+	40% {text-shadow: 0 0 30px gold;}
+	60% {text-shadow: 0 0 40px aqua;}
+	80% {text-shadow: 0 0 50px lime;}
+	100% {text-shadow: 0 0 60px purple;}
+
+	}
+
+
+main {
+	padding:20px;
+	text-align:center;
+	font-size: 40px;
+}
+
+.main-content{
+	max-width:600px;
+	margin:0 auto;
+}
+
+.glitter-text{
+	font-size:20px;
+	font-weight:bold;
+	margin-bottom:20px;
+	font-family: 'Verdana', serif;
+	background: linear-gradient(to right, purple, pink, gold, aqua, lime, purple);
+	-webkit-background-clip: text;
+	-website-text-fill-color: transparent;
+	animation: glitter 6s infinite;
+}
+
+@keyframes glitter{
+	0% {text-shadow: 0 0 10px purple;}
+	20% {text-shadow: 0 0 20px pink;}
+	40% {text-shadow: 0 0 30px gold;}
+	60% {text-shadow: 0 0 40px aqua;}
+	80% {text-shadow: 0 0 50px lime;}
+	100% {text-shadow: 0 0 60px purple;}
+}
+
+.questionnaire{
+	display:inline-block;
+	margin-top:20px;
+	padding:10px 20px;
+	font-size:20px;
+	font-weight:bold;
+	background-color: slateblue;
+	color:pink;
+	text-decoration:none;
+}
+
+.questionnaire:hover{
+	background-color: darkslateblue;
+}
+
+.glitter-button {
+	background: linear-gradient(to right, purple, pink, gold, aqua, lime, purple);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 4s infinite;
+}
+
+@keyframes glitter{
+	0% {text-shadow: 0 0 10px purple;}
+	20% {text-shadow: 0 0 20px pink;}
+	40% {text-shadow: 0 0 30px gold;}
+	60% {text-shadow: 0 0 40px aqua;}
+	80% {text-shadow: 0 0 50px lime;}
+	100%{text-shadow: 0 0 60px purple;}
+
+}
+
+footer{
+	background-color: brown(255, 127, 133);
+	color:rgb(34, 0, 126);
+	padding: 10px 0;
+	text-align: center;
+	position:fixed;
+	width:100%;
+	bottom:0;
+}
+
+.glitter-copyright{
+	font-size: 14pmx;
+	font-family: 'Baskerville', serif;
+	background: linear-gradient(to right, purple, pink, gold, aqua, lime, purple);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 4s infinite;
+}
+
+@keyframes glitter{
+	0% {text-shadow: 0 0 10px purple;}
+	20% {text-shadow: 0 0 20px pink;}
+	40% {text-shadow: 0 0 30px gold;}
+	60% { text-shadow: 0 0 40px aqua;}
+	80% {text-shadow: 0 0 50px lime;}
+	100% {text-shadow: 0 0 60px purple;}
+}

@@ -1,0 +1,182 @@
+body, h1, p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url('/static/purple2.jpg');
+	background-color: aqua;
+	background-size: cover;
+	background-position: center;
+	font-family: 'Baskerville', 'serif';
+	font-size: 20px;
+	color: whitesmoke;
+}
+
+header {
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	font-size: 48px;
+	font-family: 'Baskerville', serif;
+	background: linear-gradient(to right, purple, pink, gold, aqua, lime, purple);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0% { text-shadow: 0 0 10px purple; }
+	20% { text-shadow: 0 0 20px pink; }
+	40% { text-shadow: 0 0 30px gold; }
+	60% { text-shadow: 0 0 40px aqua; }
+	80% { text-shadow: 0 0 50px lime; }
+	100% { text-shadow: 0 0 60px purple; }
+}
+
+main {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.form-question {
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+	width: 100px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+
+
+
+
+.button-container{
+	text-align: center;
+}
+
+button[type="submit"] {
+	background-color: darkorchid;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	text-align: center;
+	
+}
+
+button[type="submit"]:hover {
+	background-color: aqua;
+	text-align: center;
+}
+
+
+.question-slider {
+	width: 80%;
+	margin: auto;
+	position: relative;
+}
+
+.question {
+	display: none;
+}
+
+.question.active {
+	display: block;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+@media (max-width: 768px){
+	.button-container{
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+
+.button-container button {
+	margin: 0 5px;
+}
+
+.button-container form {
+	display: flex;
+	align-items: center;
+
+}
+
+button {
+	display: inline-block;
+	background-color: darkorchid;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 18px;
+	transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+	margin-right: 10px;
+}
+
+button:hover {
+	color: aqua;
+	transform: scale(1.1);
+}
+
+.indicator-container{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.indicator {
+	width: 10px;
+	height: 10px;
+	background-color: aquamarine;
+	border-radius: 50%;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+.indicator.active {
+	background-color: aquamarine;
+}
+
+footer {
+	background-color: brown (255, 127, 133);
+	color: rgb(34, 0, 126);
+	padding: 10px 0;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+
+.glitter-copyright {
+	font-size: 14px;
+	font-family: 'Georgia', serif;
+	background: linear-gradient(to right, purple, pink, gold, aqua, lime, purple);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 4s infinite;
+}
