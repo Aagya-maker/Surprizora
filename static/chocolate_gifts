@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset = "UTF-8">
+<meta name="viewport" content="device-width=width, initial-scale=1.0">
+<Title>Chocolate Gifts Surprizora</Title>
+<link rel="stylesheet" type="text/css" href="css/chocolate_gifts.css">
+</head>	
+<header>
+	<h1>Gifts for Chocolate Lovers</h1>
+</header>
+<main>
+	<section>
+		<h2>Recommended Gifts To Satisfy Their Chocolate Urge</h2>
+		<div>
+			<div class="gift-product">
+				<p class="product-description">CARIANS Valentine's Day Chocolate Gift Box, Box of Candy, Assorted Luxury Premium Gourmet Chocolate Gift Basket, Dark, Milk, White Chocolates & Truffles, Holiday Chocolate Gift Box, 20 Pc., 9.1 oz.</p>
+				<a href="https://www.amazon.com/Bistro-Chocolate-Selection-Assorted-Christmas/dp/B07XN4YBGH/" target="_blank">
+					<img src="https://m.media-amazon.com/images/I/81l1kf8mivL._SL1500_.jpg" alt="Product Image">
+				</a>
+				<p class="price">Price: $25.99</p>
+				<a href="https://www.amazon.com/Bistro-Chocolate-Selection-Assorted-Christmas/dp/B07XN4YBGH/" target="_blank" class="amazon-button">View on amazon</a>
+			</div>
+
+			<div class="gift-product">
+				<p class="product-description">David’s Cookies Gluten-Free Assorted Cookies And Brownies 2Lbs – Comes In A Beautiful Love-Themed Tin Gift Box</p>
+				<a href="https://www.amazon.com/Davids-Cookies-Mothers-Gluten-Free-Assorted/dp/B0C1MDBWKV/" target="_blank">
+					<img src="https://m.media-amazon.com/images/I/916ffkElP2L._SL1500_.jpg" alt="Product Image">
+				</a>
+				<p class="price">Price: $36.99</p>
+				<a href="https://www.amazon.com/Davids-Cookies-Mothers-Gluten-Free-Assorted/dp/B0C1MDBWKV/" target="_blank" class="amazon-button">View on amazon</a>
+			</div>
+
+			<div class="gift-product">
+				<p class="product-description">Make a Wish Birthday Gift Tower by Wine Country Gift Baskets Chocolate Snack Box Sweet and Savory</p>
+				<a href="https://www.amazon.com/Make-Wish-Birthday-Gift-Basket/dp/B00134EO6S/ref" target="_blank">
+					<img src="https://m.media-amazon.com/images/I/81IZqxOuBeL._SL1500_.jpg" alt="Product Image">
+				</a>
+				<p class="price">Price: $44.95</p>
+				<a href="https://www.amazon.com/Make-Wish-Birthday-Gift-Basket/dp/B00134EO6S/" target="_blank" class="amazon-button">View on amazon</a>
+			</div>
+
+			<div class="gift-product">
+				<p class="product-description">Tower of Sweets by Wine Country Gift Baskets</p>
+				<a href="https://www.amazon.com/Gift-Appreciation-Celebration-Favorite-Spectacular/dp/B009LHPT0O/" target="_blank">
+					<img src="https://m.media-amazon.com/images/I/81kNkWZJhIL._SL1500_.jpg" alt="Product Image">
+				</a>
+				<p class="price">Price: $49.95</p>
+				<a href="https://www.amazon.com/Gift-Appreciation-Celebration-Favorite-Spectacular/dp/B009LHPT0O/" target="_blank" class="amazon-button">View on amazon</a>
+			</div>
+
+			<div class="gift-product">
+				<p class="product-description">A Gift Inside Birthday Chocolate Caramel and Crunch Grand Gift Basket with Snacks, Pretzels, Ghirardelli and Chocolate-covered Nuts</p>
+				<a href="https://www.amazon.com/Gift-Inside-Chocolate-Ghirardelli-Chocolate-covered/dp/B07QNRXNPF/" target="_blank">
+					<img src="https://m.media-amazon.com/images/I/911P0qp62JL._SL1500_.jpg" alt="Product Image">
+				</a>
+				<p class="price">Price: $44.95</p>
+				<a href="https://www.amazon.com/Gift-Inside-Chocolate-Ghirardelli-Chocolate-covered/dp/B07QNRXNPF/" target="_blank" class="amazon-button">View on amazon</a>
+			</div>
+
+			<div class="gift-product">
+				<p class="product-description">Broadway Basketeers Sweets and Chocolate Gift Basket, Gourmet Gifts with Nuts </p>
+				<a href="https://www.amazon.com/Broadway-Basketeers-Sweet-Savory-Basket/dp/B076BV6YHW/" target="_blank">
+					<img src="https://m.media-amazon.com/images/I/91PwoWHgJtL._SL1500_.jpg" alt="Product Image">
+				</a>
+				<p class="price">Price: $54.95</p>
+				<a href="https://www.amazon.com/Broadway-Basketeers-Sweet-Savory-Basket/dp/B076BV6YHW/" target="_blank" class="amazon-button">View on amazon</a>
+			</div>
+
+			<div class="gift-product">
+				<p class="product-description">A Gift Inside Half Dozen Original Love Berry Dipped Strawberries & Chocolate Delight Caramel Apple Duo</p>
+				<a href="https://www.amazon.com/Count-Berries-Dipped-Strawberries-Caramel/dp/B09KK8C6Z1/" target="_blank">
+					<img src="https://m.media-amazon.com/images/I/71R14yZtMfL._SL1500_.jpg" alt="Product Image">
+				</a>
+				<p class="price">$56.95</p>
+				<a href="https://www.amazon.com/Count-Berries-Dipped-Strawberries-Caramel/dp/B09KK8C6Z1/" target="_blank" class="amazon-button">View on amazon</a>
+			</div>
+
+			<div class="gift-product">
+				<p class="product-description">Barnett's Gourmet Chocolate Bundle, Cookies, Biscottis and Wafers, Food Gift Basket</p>
+				<a href="https://www.amazon.com/Barnetts-Gourmet-Chocolate-Biscottis-Families/dp/B08YLJ558P/" target="_blank">
+					<img src="https://m.media-amazon.com/images/I/71g3QVhTf6L._SL1000_.jpg" alt="Product Image">
+				</a>
+				<p class="price">Price: $84.95</p>
+				<a href="https://www.amazon.com/Barnetts-Gourmet-Chocolate-Biscottis-Families/dp/B08YLJ558P/" target="_blank" class="amazon-button">View on amazon</a>
+			</div>
+
+			<div class="gift-product">
+				<p class="product-description">Michel et Augustin Gourmet Cookie Gift Tin, Dark Chocolate & Sea Salt and Milk Chocolate & Caramel Butter Cookies</p>
+				<a href="https://www.amazon.com/Augustin-Chocolate-Christmas-Stocking-Shortbread/dp/B0CNBQXQZ1" target="_blank">
+					<img src="https://m.media-amazon.com/images/I/61MXlL-FkAL._SL1000_.jpg" alt="Product Image">
+				</a>
+				<p class="price">Price: $24.99</p>
+				<a href="https://www.amazon.com/Augustin-Chocolate-Christmas-Stocking-Shortbread/dp/B0CNBQXQZ1/" target="_blank" class="amazon-button">View on amazon</a>
+			</div>
+
+			<div class="gift-product">
+				<p class="product-description">Chocmod Truffettes de France Natural Truffles 2.2 lbs</p>
+				<a href="https://www.amazon.com/Chocmod-Truffettes-France-Natural-Truffles/dp/B0008IT4OM/" target="_blank">
+					<img src="https://m.media-amazon.com/images/I/717tSzO0jtL._SL1500_.jpg" alt="Product Image">
+				</a>
+				<p class="price">Price: $33.76</p>
+				<a href="https://www.amazon.com/Chocmod-Truffettes-France-Natural-Truffles/dp/B0008IT4OM/" target="_blank" class="amazon-button">View on amazon</a>
+			</div>
+
+			<div class="gift-product">
+				<p class="product-description">Ultimate Sharing Tower</p>
+				<a href="https://www.amazon.com/GiftTree-Ultimate-Sharing-Tower/dp/B0BNT16TWB/" target="_blank">
+					<img src="https://m.media-amazon.com/images/I/81OY5xH5nqL._SL1500_.jpg" alt="Product Image">
+				</a>
+				<p class="price">Price: $49.95 </p>
+				<a href="https://www.amazon.com/GiftTree-Ultimate-Sharing-Tower/dp/B0BNT16TWB/" target="_blank" class="amazon-button">View on amazon</a>
+			</div>
+		
+
+		</div>
+	</section>
+</main>
+<footer>
+	<p class="glitter-copyright">&copy; Suprizora 2024. All rights reserved.</p>
+</footer>
+</html>
